@@ -15,7 +15,7 @@ session_opts = {
 
 app = SessionMiddleware(bottle.app(), session_opts)
 
-vara = [{'name':'','price':''},{'name':'','price':''},{'name':'','price':''},{'name':'','price':''},{'name':'','price':''},{'name':'','price':''}]
+vara = [{'name':'Jakki','price':'20000'},{'name':'Peysa','price':'10000'},{'name':'Kjóll','price':'35000'},{'name':'Stuttbuxur','price':'7500'},{'name':'Úlpa','price':'45000'},{'name':'Skór','price':'30000'}]
 
 @route("/")
 def index():
